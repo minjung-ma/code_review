@@ -2,7 +2,7 @@
 #define SHOPPING_H_
 
 #include <vector>
-#include "./goods.h"
+#include "goods.h"
 
 // Shopping class presents List of shopping.
 // Example:
@@ -13,7 +13,7 @@
 //     tobuylist.PushList(obj1);
 //     tobuylist.PushList(obj2);
 //     tobuylist.PrintList();
-class Shopping{
+class Shopping {
  public:
   void PushList(Goods object);
   Goods GetLastElement();
